@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 body, html {
   padding: 0;
   margin: 0;
@@ -7,15 +14,26 @@ body, html {
   -webkit-box-sizing: border-box;
   box-sizing: border-box
 }
-.videobanner {
+.video-banner {
   position: relative;
+  width: 850px;
+  height: 250px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
+
+.video-banner__video {
+  width: 100%;
+  height: 100%;
+}
+
 #click_area {
   display: block; 
   text-decoration: none;
